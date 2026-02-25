@@ -2,7 +2,7 @@
 
 ## Architecture Overview
 
-The pipeline solves a 30-day crew scheduling problem for BVG Berlin bus line M29 by compressing 30 independent optimization days into ~4 representative archetype days using unsupervised learning, solving each archetype with a quantum-classical hybrid optimizer, and replicating solutions across the full month via a segment-matching adapter.
+The pipeline solves a 30-day crew scheduling problem for BVG Berlin bus line M29 and M41 by compressing 30 independent optimization days into ~4 representative archetype days using unsupervised learning, solving each archetype with a quantum-classical hybrid optimizer, and replicating solutions across the full month via a segment-matching adapter.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
